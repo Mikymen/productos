@@ -1,7 +1,7 @@
-<div class="container">
-  <div class="col-md-offset-4 col-md-4" style="margin-top:100px;">
+<div class="container" style="background-color: #eaeaea; margin-top:20px; padding:15px;">
+  <div class="col-md-offset-4 col-md-4">
   <div class="loginLogo">
-                <img  src="assets/img/pharmaquick.png" />
+                <img  src="assets/img/logo.png" />
             </div>
       <form class="form-signin" action="AuthController/LoginAdmin" method="post">
         <h3 class="form-signin-heading text-center">Administrador del sistema</h3>

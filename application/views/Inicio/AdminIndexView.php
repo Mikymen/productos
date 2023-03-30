@@ -16,7 +16,7 @@
     <div class="container-fluid">
         <div class="navbar-header">
             <div class="navbar-brand">
-                <img style="margin-top: -10px;" src="assets/img/pharmaquick.png" />
+                <img style="margin-top: -18px;" src="assets/img/logo2.png" />
             </div>
 
         </div>

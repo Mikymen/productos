@@ -3,7 +3,7 @@
         <div class="navbar-header">
             <!-- <div class="navbar-brand">Sistema de Solicitud de Productos</div>  -->
             <div class="navbar-brand">
-                <img style="margin-top: -10px;" src="assets/img/pharmaquick.png" />
+                <img style="margin-top: -18px;" src="assets/img/logo2.png" />
             </div>
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-5">

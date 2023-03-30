@@ -6,7 +6,7 @@ body {
   height: 100vh;
 }
 #login .container #login-row #login-column #login-box {
-  margin-top: 50px;
+  margin: 20px;
   max-width: 600px;
   /*height: 320px;*/
   border: 1px solid #9C9C9C;
@@ -34,9 +34,9 @@ body {
                         </div> -->
                         <form id="login-form" class="form" action="AuthController/LoginCliente" method="post">
                             <div class="text-center" >
-                            <img style="width:280px"  src="assets/img/pharmaquick.png" />
+                            <img style="width:280px"  src="assets/img/logo.png" />
                             </div>
-                            <h3 class="text-center text-info">Acceso</h3>
+                            <h4 class="text-center text-info">Acceso al sistema</h4>
                             <div class="form-group">
                                 <label for="username" class="text-info">Usuario:</label><br>
                                 <input type="text" name="username" id="username" class="form-control">

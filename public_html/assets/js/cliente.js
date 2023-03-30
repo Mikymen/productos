@@ -181,6 +181,7 @@ $(function() {
             }
         }
         self.IniciarPaginacion=function(_idLabo, _pag, _tam){
+            
             var offset = (_pag-1)*_tam;
             var nItems = 0;
             var itemsValidos=[];
@@ -189,7 +190,8 @@ $(function() {
                     itemsValidos.push(item);
                 }
             }); 
-            self.productos(itemsValidos.slice(offset,offset+_tam));
+            console.log(_pag,  itemsValidos.length, _tam, _idLabo);
+            self.productos(itemsValidos.slice(offset,offset+_tam, ));
             self.Paginacion(_pag,  itemsValidos.length, _tam, _idLabo);
         }
         self.Paginacion=function(pagActual,paginas,tamPag, idLabo){
