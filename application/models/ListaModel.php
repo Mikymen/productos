@@ -12,7 +12,7 @@ class ListaModel extends CI_Model
         $nReg = $this->db->where('idLaboratorio', $idLabo)->count_all_results("productos");
         //$paginas = ceil($nReg/$tamPag);
         $offset = ($npagina-1)*$tamPag;
-        $query= $this->db->limit( $tamPag,$offset)->where('idLaboratorio', $idLabo)->order_by('producto')->get("vwproductos");      
+        $query= $this->db->where('idLaboratorio', $idLabo)->order_by('producto')->get("vwproductos");      
         
         return Array(
             "res" => $query->result_array(),
