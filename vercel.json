@@ -1,13 +1,17 @@
 {
   "version": 2,
   "builds": [
-	  { "src": "/api/index.php", "use": "vercel-php@0.3.3" },
-	  { "src": "/public_html/**", "use": "@vercel/static" }
+	  { "src": "/public_html/index.php", "use": "vercel-php@0.3.3" },
+	  { "src": "/public_html/assets/**", "use": "@vercel/static" }
   ],
-    "rewrites": [
+  "rewrites": [
+        {
+            "source": "/(assets)/(.*)",
+            "destination": "public_html/$1/$2"
+        },
         {
             "source": "/(.*)",
-            "destination": "/api/index.php"
+            "destination": "/public_html/index.php"
         }
     ]
 }
