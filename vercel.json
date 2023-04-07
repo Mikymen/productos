@@ -13,5 +13,13 @@
             "source": "/(.*)",
             "destination": "/public_html/index.php"
         }
+    ],
+    
+    "redirects":[
+        {
+            "source": "/",
+            "destination": "/public_html/"
+        }
     ]
+
 }
